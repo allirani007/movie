@@ -1,0 +1,70 @@
+.App {
+  color: red;
+  font-family: cursive;
+  text-align: center;
+}
+h1 {
+  color: purple;
+  text-align: center;
+}
+p {
+  text-align:left;
+  color: green;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.user-profile {
+  height: 200px;
+  width: 340px;
+  object-fit: cover;
+  border-radius: 20%;
+  border-color: greenyellow;
+  border-top-left-radius: 0ch;
+}
+.movie-container{
+  background: orange;
+  width: 340px;
+
+}
+.movie-img {
+  height: 400px;
+  width: 340px;
+  object-fit: cover;
+  }
+.movie-spec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.movie-name{
+    margin: 0;
+    font-size: 24px;
+  }
+.movie-summary{
+    margin-top: 0px;
+  }
+.rating{
+    font-size: 18px;
+  }
+.movie-list{
+  display:flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.rr{
+  font-family: cursive;
+  font-size: 12px;
+  color: orange;
+}
+.fff{
+  display:flex;
+}
+
+
+.add-movie-form{
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin: 16px;
+
+}
